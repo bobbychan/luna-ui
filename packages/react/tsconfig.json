@@ -1,4 +1,0 @@
-{
-  "extends": "../../tsconfig.json",
-  "include": ["src", "index.ts", "../hooks/src/use-disclosure/use-disclosure.ts"]
-}
