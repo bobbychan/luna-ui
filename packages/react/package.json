@@ -1,0 +1,40 @@
+{
+  "name": "@alice-ui/react",
+  "version": "2.0.0",
+  "private": true,
+  "keywords": [
+    "react",
+    "react-aria",
+    "react-aria-components",
+    "react-components",
+    "react-ui",
+    "tailwindcss",
+    "tailwind-variants"
+  ],
+  "homepage": "https://github.com/bobbychan/alice-ui#readme",
+  "license": "MIT",
+  "exports": {
+    "./button": "./src/button.tsx",
+    "./card": "./src/card.tsx",
+    "./code": "./src/code.tsx"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen react-component",
+    "check-types": "tsc --noEmit",
+    "clean": "rimraf dist .turbo"
+  },
+  "devDependencies": {
+    "@alice-ui/eslint-config": "workspace:*",
+    "@turbo/gen": "^2.4.0",
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.20.0",
+    "typescript": "5.7.3"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

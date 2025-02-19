@@ -1,0 +1,10 @@
+dist
+build
+node_modules
+coverage
+.changeset
+pnpm-lock.yaml
+!.storybook
+!plopfile.js
+!jest.config.js
+!tsup.config.ts
